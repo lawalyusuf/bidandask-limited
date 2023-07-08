@@ -13,6 +13,18 @@
 	"require": {
 		"php": ">=5.3.7"
 	},
+
+	"require": {
+     "ext-mysql": "*",
+       "Nixpacks": "v1.0.2"
+   },
+    "require": {
+       "ext-gettext": "*"
+     },
+     "require": {
+      "parse/php-sdk" : "1.6.*"
+  },
+  
 	"suggest": {
 		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
 	},
